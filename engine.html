@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>MonkeyWrench Game Engine - Features</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="MonkeyWrench, game engine, C++, 2D graphics, game development">
+    <meta name="description" content="MonkeyWrench - A miniature 2D game engine built with C++. Features include Actor-Component system, physics, audio management, and particle systems.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="engine-banner scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+                        <h1 id="banner-logo">Noah Givner</h1>
+                        <h1 id="navigation-logo">Noah Givner</h1>
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="engine.html">Engine</a>
+                            </li>
+                            <li>
+                                <a href="homeworkquest.html">Homeworkquest</a>
+                            </li>
+                            <li>
+                                <a href="games.html">Games</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>MonkeyWrench Game Engine</h1>
+                    <h2>A miniature 2D game engine built with C++. Features include Actor-Component system, physics with Rigidbody, audio management, particle systems, and comprehensive scene management.</h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="https://github.com/givnerna/MonkeyWrench" target="_blank" class="button">VIEW ON GITHUB</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="features" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-2">
+                    <div class="section-heading">
+                        <h3>FEATURES</h3>
+                        <h2 class="section-title">Engine Capabilities</h2>
+                        <p class="section-subtitle">MonkeyWrench is a powerful 2D game engine designed for flexibility and performance.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-puzzle-piece fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Actor-Component System</h4>
+                                <p>Flexible and modular architecture with entity-component design pattern for easy game object composition.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-cube fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Physics System</h4>
+                                <p>Rigidbody components, collider system, and raycast functionality powered by Box2D for realistic physics simulation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-headphones fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Audio Management</h4>
+                                <p>Comprehensive audio system with AudioDB for sound management and playback control.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-spinner fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Particle Systems</h4>
+                                <p>Robust particle system for visual effects, explosions, and environmental elements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-image fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Asset Management</h4>
+                                <p>ImageDB for efficient asset loading and management with support for various image formats.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1.1s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-code fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Lua Scripting</h4>
+                                <p>luaBridge integration for runtime scripting capabilities and gameplay logic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1.3s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-list fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>Event Bus</h4>
+                                <p>EventBus system for decoupled communication between game systems and components.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-4">
+                        <div class="icon-block icon-top wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 1.5s; animation-name: fadeInUp;">
+                            <div class="icon">
+                                <i class="fa fa-paint-brush fa-2x"></i>
+                            </div>
+                            <div class="icon-block-description">
+                                <h4>2D Rendering</h4>
+                                <p>Efficient renderer for 2D graphics with support for sprites, textures, and layered rendering.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Icon Block-->
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--End of Introduction Section-->
+
+        <!--Videos Section-->
+        <section id="engine-videos" class="gallery-isotope default-gallery">
+
+            <div class="row section-heading wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="col-2-3">
+                    <h3>DEMONSTRATIONS</h3>
+                    <h2>Engine in Action</h2>
+                    <p class="section-subtitle">Watch the MonkeyWrench engine showcase in these gameplay demos.</p>
+                </div>
+            </div>
+
+            <div class="row clearfix">
+
+                <!--Demo Video Block 1-->
+                <div class="col-2 video-block wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="demo-video-container">
+                        <video src="videos/game3fixed.mp4" controls preload="metadata"></video>
+                        <h4>General Game Demo</h4>
+                        <p>Comprehensive demonstration of the game engine's capabilities including multiple game mechanics.</p>
+                    </div>
+                </div>
+
+                <!--Demo Video Block 2-->
+                <div class="col-2 video-block wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="demo-video-container">
+                        <video src="videos/RollaballTestFixed.mp4" controls preload="metadata"></video>
+                        <h4>Physics Demo</h4>
+                        <p>Showcasing the physics system with rigidbodies, collision detection, and realistic object interactions.</p>
+                    </div>
+                </div>
+
+                <!--Demo Video Block 3-->
+                <div class="col-2 video-block wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="demo-video-container">
+                        <video src="videos/particleTestFixed.mp4" controls preload="metadata"></video>
+                        <h4>Particle System Demo</h4>
+                        <p>Visual effects demonstration featuring particle systems for dynamic visual elements.</p>
+                    </div>
+                </div>
+
+                <!--Demo Video Block 4-->
+                <div class="col-2 video-block wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="demo-video-container">
+                        <video src="videos/CuteEmUpTestFixed.mp4" controls preload="metadata"></video>
+                        <h4>Cute Em Up Game</h4>
+                        <p>A complete game built with the MonkeyWrench engine showcasing gameplay systems.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End of Videos Section-->
+
+        <!--Technology Stack Section-->
+        <section id="tech-stack" class="scrollto clearfix">
+
+            <div class="row clearfix">
+
+                <div class="col-2">
+                    <div class="section-heading">
+                        <h3>TECHNOLOGY</h3>
+                        <h2 class="section-title">Powered By</h2>
+                        <p class="section-subtitle">MonkeyWrench leverages industry-standard libraries for robust functionality.</p>
+                    </div>
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Tech Stack Content-->
+                    <div class="row clearfix">
+
+                        <div class="col-2">
+                            <h4>Core Technologies</h4>
+                            <div class="tech-list">
+                                <p><span class="tech-item">C++</span> - Primary programming language</p>
+                                <p><span class="tech-item">2D Graphics</span> - Game rendering</p>
+                                <p><span class="tech-item">Cross-Platform</span> - Windows, macOS, Linux</p>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <h4>Third-Party Libraries</h4>
+                            <div class="tech-list">
+                                <p><span class="tech-item">SDL2</span> - Window management and input</p>
+                                <p><span class="tech-item">Box2D</span> - Physics simulation</p>
+                                <p><span class="tech-item">rapidJSon</span> - JSON parsing</p>
+                                <p><span class="tech-item">GLM</span> - Mathematics library</p>
+                                <p><span class="tech-item">luaBridge</span> - Lua scripting integration</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--End Tech Stack Content-->
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--End of Technology Stack Section-->
+
+        <!--GitHub CTA Section-->
+        <section id="github-cta" class="scrollto clearfix" style="background-color: #f8f8f8; padding: 80px 0;">
+            
+            <div class="row clearfix">
+                
+                <div class="col-2-3" style="text-align: center;">
+                    <h2>Open Source</h2>
+                    <p class="section-subtitle">MonkeyWrench is an open-source project, continuously improved through active development.</p>
+                    <div style="margin: 40px 0;">
+                        <a href="https://github.com/givnerna/MonkeyWrench" target="_blank" class="button" style="display: inline-block;">VIEW SOURCE CODE</a>
+                    </div>
+                    <p style="color: #666; font-size: 14px;">500+ commits | Cross-platform build system | MIT License</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!--End of GitHub CTA Section-->
+
+    </main>
+    <!--End Main Content Area-->
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright">&copy; 2024 Noah Givner</p>
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!-- <script src="js/jquery.stickyNavbar.min.js"></script> -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>
+
